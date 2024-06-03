@@ -1,0 +1,19 @@
+{% extends "myapp/base.html" %}
+
+{% block title %}ЗАЛОГИНИТЬСЯ{% endblock %}
+
+{% block content %}
+<h2>ЗАЛОГИНИТЬСЯ</h2>
+<form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="Userman">Userman</label>
+        <input type="text" class="form-control" id="Userman" name="Userman" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">ЗАЛОГИНИТЬСЯ</button>
+</form>
+{% endblock %}
