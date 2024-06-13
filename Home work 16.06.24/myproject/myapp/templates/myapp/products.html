@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h1>Products</h1>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.get_id_and_name }} - Price: {{ product.price }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Total Price: {{ total_price }}</h2>
+</body>
+</html>

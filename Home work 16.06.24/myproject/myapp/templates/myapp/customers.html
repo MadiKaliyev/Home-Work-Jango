@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customers</title>
+</head>
+<body>
+    <h1>Customers</h1>
+    <ul>
+        {% for customer in customers %}
+            <li>{{ customer.get_id_and_name }} - Age: {{ customer.age }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Total Age: {{ total_age }}</h2>
+</body>
+</html>
