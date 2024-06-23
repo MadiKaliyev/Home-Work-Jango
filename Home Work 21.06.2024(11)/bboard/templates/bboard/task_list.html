@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+</head>
+<body>
+    <h1>Task List</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.description }} - <a href="{% url 'task_detail' task.id %}">ДЕТАЛИ</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
