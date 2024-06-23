@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excluded Tasks</title>
+</head>
+<body>
+    <h1>Excluded Tasks</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

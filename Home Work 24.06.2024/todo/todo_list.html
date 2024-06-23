@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список задач</title>
+</head>
+<body>
+    <h1>Список задач</h1>
+    <a href="{% url 'todo:todo_list' %}">Список задач</a><br>
+    <a href="{% url 'todo:task_detail' id=1 %}">Детали задачи 1</a><br>
+    <a href="{% url 'todo:task_add' %}">Добавить задачу</a><br>
+    <a href="{% url 'todo:task_edit' id=1 %}">Редактировать задачу 1</a><br>
+    <a href="{% url 'todo:task_delete' id=1 %}">Удалить задачу 1</a><br>
+    <a href="{% url 'todo:completed_tasks' %}">Завершенные задачи</a><br>
+</body>
+</html>
