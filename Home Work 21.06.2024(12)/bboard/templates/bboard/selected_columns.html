@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Выбранная колонка</title>
+</head>
+<body>
+    <h1>Выбранная колонка</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>Description: {{ task.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

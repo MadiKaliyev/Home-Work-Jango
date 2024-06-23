@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Детали Задачи</title>
+</head>
+<body>
+    <h1>Детали Задачи</h1>
+    <p>{{ task.description }}</p>
+    <p>Дедлайн: {{ task.deadline }}</p>
+    <a href="{% url 'update_task' task.id %}">Обновление</a> | 
+    <a href="{% url 'delete_task' task.id %}">Удаление</a>
+</body>
+</html>
