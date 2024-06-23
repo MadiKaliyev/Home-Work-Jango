@@ -1,0 +1,31 @@
+{% extends "layout/basic.html" %}
+{% block title %}Управление комментариями{% endblock %}
+{% block content %}
+    <h1>Комментарии</h1>
+    {% if error %}
+        <div style="color: red;">{{ error }}</div>
+    {% endif %}
+    <ul>
+        {% for comment in comments %}
+            <li>
+                {% if comment.user %}
+                    {{ comment.user.username }}: {{ comment.text }}
+                {% else %}
+                    Anonymous: {{ comment.text }}
+                {% endif %}
+                <form action="{% url 'delete_comment' comment.id %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit">Удалить</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Добавить комментарий</h2>
+    <form action="{% url 'post_comments' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="text" placeholder="Комментарий" required>
+        <input type="text" name="username" placeholder="Имя пользователя">
+        <button type="submit">Добавить</button>
+    </form>
+{% endblock %}
