@@ -1,0 +1,126 @@
+Method: GET
+Path: /
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /login/s
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /tasks
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /tasks/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /bboard/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /bbo
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: POST
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {'csrfmiddlewaretoken': ['Awo4dAOGLHk2RFBZlh46q2LmmeXegBIMYXlP9SUVjFvOwBuR28bxFMOPEuBaiWVv'], 'username': ['adminûô'], 'password': ['admin']}>
+User: admin
+========================
+Method: GET
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: POST
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {'csrfmiddlewaretoken': ['ODIX8wpLafLZ9noQKvh2WXfqYeEO07Kyc4FI4Ov0IdWLOjhIrmotbHiTguiK2sXh'], 'username': ['admin'], 'password': ['admin']}>
+User: admin
+========================
+Method: GET
+Path: /tasks/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /bboard/tasks/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /äùïøò/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /login/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
+Method: GET
+Path: /bboard/tasks/
+GET Params: <QueryDict: {}>
+POST Params: <QueryDict: {}>
+User: admin
+========================
